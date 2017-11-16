@@ -1,0 +1,664 @@
+<!DOCTYPE html>
+<html>
+<title>milprojectdepartmentrating</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+    body,
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+        font-family: "Lato", sans-serif
+    }
+
+    .w3-bar,
+    h1,
+    button {
+        font-family: "Montserrat", sans-serif
+    }
+
+    .fa-anchor,
+    .fa-coffee {
+        font-size: 200px
+    }
+</style>
+
+<body>
+
+    <!-- Navbar -->
+    <div class="w3-top">
+        <div class="w3-bar w3-red w3-card-2 w3-left-align w3-large">
+            <a class="w3-bar-item w3-button w3-hide-medium w3-hide-large w3-right w3-padding-large w3-hover-white w3-large w3-red" href="javascript:void(0);"
+                onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+            <a href="#" class="w3-bar-item w3-button w3-padding-large w3-white">Home</a>
+            <a href="#" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">about</a>
+            <a href="mil 2nd page.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">fill form</a>
+            <a href="#" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">contact</a>
+
+        </div>
+
+        <!-- Navbar on small screens -->
+        <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium w3-large">
+            <a href="#" class="w3-bar-item w3-button w3-padding-large">about</a>
+            <a href="mil 2nd page.html" class="w3-bar-item w3-button w3-padding-large">fill form</a>
+            <a href="#" class="w3-bar-item w3-button w3-padding-large">contact</a>
+
+        </div>
+    </div>
+
+    <!-- Header -->
+    <header class="w3-container w3-red w3-center" style="padding:128px 16px">
+        <h1 class="w3-margin w3-jumbo">Department Rating</h1>
+        <p class="w3-xlarge">DSCE</p>
+        <a href="mil 2nd page.html">
+        <button class="w3-button w3-black w3-padding-large w3-large w3-margin-top" >Get Started</button>
+        </a>
+        <!-- Slide Show -->
+        <section>
+            <img class="mySlides" src="http://dayanandasagar.edu/images/contact.jpg" style="width:100%">
+            <img class="mySlides" src="http://image3.mouthshut.com/images/imagesp/925717953s.jpg" style="width:100%">
+            <img class="mySlides" src="http://dayanandasagar.edu/dscasc/templates/dsce/images/about.jpg" style="width:100%">
+        </section>
+    </header>
+
+    <!-- First Grid -->
+    <div class="w3-row-padding w3-padding-64 w3-container">
+        <div class="w3-content">
+            <div class="w3-twothird">
+                <h1>Department Rating</h1>
+                <h3>Let's see what is department rating?</h3>
+                <h5 class="w3-padding-32">DSCE is no.1 in getting highest numbers of University Rank every year... DSCE offers UG, PG & Ph.D Programs.
+                    It has 21 departments with qualified faculties which makes DSCE best for higher education...<br>Faculty
+                    at DSCE fulfil multiple roles as educators, researchers and professionals having a broad range of backgrounds,
+                    scholarly interests and areas of expertise thereby bringing substantial achievement in professional practice
+                    and research into the classroom. The multifaceted faculty continue to maintain and cultivate strong links
+                    with industry and academia alike. Besides high quality teaching, the faculty members are actively involved
+                    in basic and applied research through various R&D projects and consultancy.The students are also one
+                    of the major factors in the developement of a particular department.They follow the guidance of their
+                    teachers and work very hard to fulfill their goals and dreams.Hence this is a small gesture from our
+                    side which reciprocates their hardwork and we want their work to be recognised and their work to be appreciated.And
+                    so here we launch our department rating website!!</h5>
+
+                <p class="w3-text-grey">
+                    <h5>So please fill the form!!And we will announce the top department!
+                </h5>
+                </p>
+            </div>
+
+            <div class="w3-third w3-center"><img src="https://www.collegesearch.in/upload/institute/images/large/121001104720_large_2.jpg" alt="Random Name"
+                    style="width:100%">
+
+            </div>
+        </div>
+    </div>
+
+    <!-- Second Grid -->
+    <div class="w3-row-padding w3-light-grey w3-padding-64 w3-container">
+        <div class="w3-content">
+
+
+            <p>
+                <section class="w3-row-padding w3-center w3-light-grey">
+                    <article class="w3-third">
+                        <p>visit are website!<br>Get to know about department rating</p>
+                        <img src="https://images.static-collegedunia.com/public/college_data/images/campusimage/14176021874.jpg" alt="Random Name"
+                            style="width:100%">
+
+                    </article>
+                    <article class="w3-third">
+                        <p>Fill the form !</p>
+                        <img src="https://www.ugcnetdelhi.com/img/uploads/computer-science.jpg" alt="Random Name" style="width:100%">
+
+                    </article>
+                    <article class="w3-third">
+                        <p>The top department will be announced soon!</p>
+                        <img src="https://www.collegesearch.in/upload/institute/images/large/121001104720_large_2.jpg" alt="Random Name" style="width:100%">
+                        <p></p>
+                    </article>
+                </section>
+            </p>
+        </div>
+
+
+    </div>
+    
+
+    <div class="w3-container w3-black w3-center w3-opacity w3-padding-64">
+        <h1 class="w3-margin w3-xlarge">hurry up!!fill the form!!and submit it!!</h1>
+    </div>
+
+
+
+    <script>
+        // Used to toggle the menu on small screens when clicking on the menu button
+        function myFunction() {
+            var x = document.getElementById("navDemo");
+            if (x.className.indexOf("w3-show") == -1) {
+                x.className += " w3-show";
+            } else {
+                x.className = x.className.replace(" w3-show", "");
+            }
+        }
+
+    </script>
+    <script>
+        // Automatic Slideshow - change image every 3 seconds
+        var myIndex = 0;
+        carousel();
+
+        function carousel() {
+            var i;
+            var x = document.getElementsByClassName("mySlides");
+            for (i = 0; i < x.length; i++) {
+                x[i].style.display = "none";
+            }
+            myIndex++;
+            if (myIndex > x.length) { myIndex = 1 }
+            x[myIndex - 1].style.display = "block";
+            setTimeout(carousel, 3000);
+        }
+
+    </script>
+
+
+</body>
+
+</html>
+
+2nd page
+
+<!DOCTYPE html>
+<html>
+<title>
+</title>
+
+<head>
+    <style>
+        h1 {
+            color: DodgerBlue;
+        }
+
+        h2 {
+            color: ;
+            font-family: 'Aclonica';
+        }
+
+        label {
+            color: Tomato;
+        }
+
+        select {
+            color: Navy;
+        }
+
+        input {
+            background-color: LightSalmon;
+        }
+
+        input:hover {
+            background: LightGreen;
+        }
+
+        select {
+            color: SandyBrown;
+            font-family: "Comic Sans MS", cursive, sans-serif;
+        }
+
+        label {
+            color: ;
+        }
+
+        option {
+            color: SandyBrown;
+            font-family: "Comic Sans MS", cursive, sans-serif;
+        }
+
+        a {
+            text-decoration: none;
+        }
+
+        button {
+            background-color: LightGreen;
+        }
+    </style>
+</head>
+
+<body>
+    <img src="https://static-collegedunia.com/public/college_data/images/logos/1414818084logo1.jpg">
+    <h1>DAYANANDA SAGAR COLLEGE OF ENGINEERING</h1>
+    <h2>DEPARTMENT RATING FORM</h2>
+    <form name="myform1">
+        <label for="branch">BRANCH</label><br>
+        <select id="branch" name="branch">
+      <option value="AERONAUTICAL ENGINEERING">AERONAUTICAL ENGINEERING</option>
+      <option value="AUTOMOBILE ENGINEERING">AUTOMOBILE ENGINEERING</option>
+      <option value="BIOTECHNOLOGY">BIOTECHNOLOGY</option>
+	  <option value="CHEMICAL ENGINEERING">CHEMICAL ENGINEERING</option>
+	  <option value="COMPUTER SCIENCE AND ENGINEERING">COMPUTER SCIENCE AND ENGINEERING</option>
+	  <option value="CIVIL ENGINEERING">CIVIL ENGINEERING</option>
+	  <option value="CONSTRUCTION TECHNOLOGY & MANAGEMENT">CONSTRUCTION TECHNOLOGY & MANAGEMENT</option>
+	  <option value="ELECTRICAL AND ELECTRONICS ENGINEREING">ELECTRICAL AND ELECTRONICS ENGINEREING</option>
+	  <option value="ELECTRONICS & COMMUNICATION ENGINEERING">ELECTRONICS & COMMUNICATION ENGINEERING</option>
+	  <option value="INDUSTRIAL ENGINEERING & MANAGEMENT">INDUSTRIAL ENGINEERING & MANAGEMENT</option>
+	  <option value="INFORMATION SCIENCE & ENGINEERING">INFORMATION SCIENCE & ENGINEERING</option>
+	  <option value="ELECTRONICS AND INSTRUMENTATION ENGINEERING">ELECTRONICS AND INSTRUMENTATION ENGINEERING</option>
+	  <option value="MECHANICAL ENGINEERING">MECHANICAL ENGINEERING</option>
+	  <option value="MEDICAL ELECTRONICS">MEDICAL ELECTRONICS</option>
+	  <option value="TELECOMMUNICATION ENGINEERING">TELECOMMUNICATION ENGINEERING</option><br>
+	  </select><br>
+        <label for="year">YEAR</label><br>
+        <input type="number" name="enter year"><br>
+        <label for="sem">SEMESTER</label><br>
+        <select id="sem" name="semester">
+	  <option value="ODD">ODD</option>
+      <option value="EVEN">EVEN</option><br>
+	  </select><br>
+        <div><br>
+
+            <button> <a href="mil 3rd page.html"> submit</a></button>
+        </div>
+
+    </form>
+</body>
+
+</html>
+
+
+3rd page
+
+<!DOCTYPE html>
+<html>
+
+
+<head>
+    <title>form
+    </title>
+    <style>
+        label {
+            color: OrangeRed;
+            font-family: Impact, Charcoal, sans-serif;
+        }
+
+        label.x {
+            color: Tan;
+        }
+
+        p.y {
+            color: green;
+        }
+
+        p.z {
+            color: blue;
+        }
+        input { width: 100px;
+                height:20px;
+
+        }
+        input.attach_files{
+            overflow: auto;
+        }
+    </style>
+    <script src="mil displaypage.js"></script>
+
+</head>
+
+<body>
+<form name="myform">
+
+        <!-- html for faculty strenght -->
+
+    <label for="faculty strenght">FACULTY STRENGTH IN DEPARTMENT</label><br>
+    <p class="y"> Professors: </p>
+    <input type="number" name="professors">
+    <input type="file" class="attach_files"><br>
+    <p class="y">Associate professors:</p>
+    <input type="number" name="associate_professors">
+    <input type="file"  class="attach_files"><br>
+    <p class="y">Assistant professors:</p>
+    <input type="number" name="assistant_professors"><br>
+    <input type="file"  class="attach_files"><br>
+   
+
+        <!-- html for papers published -->
+
+    <label for="papers published" name="results"> PAPERS PUBLISHED</label>
+    <br>
+
+    <input type="range" min="1" max="100" value="50" class="slider" id="myRange" name="papers_published">
+    <p class="z">Value: <span id="demo"></span></p>
+    <input type="file" class="attach_files"><br>
+
+
+        <!-- script for papers published -->
+
+        <script>
+            var slider = document.getElementById("myRange");
+            var output = document.getElementById("demo");
+            output.innerHTML = slider.value;
+
+            slider.oninput = function () {
+            output.innerHTML = this.value;
+            }
+        </script>
+
+
+
+      <!-- html for 3rd sem results -->
+
+    <label for="results" name="results"> RESULTS</label>
+    <br>
+    <p class="y" for="3rd sem" name="3rd sem"> 3rd semester</p>
+
+    <input type="range" min="1" max="100" value="50" class="slider1" id="myRange1" name="third_results">
+    <p class="z">Value: <span id="demo1"></span></p><br>
+    <input type="file" class="attach_files"><br>
+
+
+
+
+    <!-- script for 3rd sem results -->
+
+    <script>
+            var slider1 = document.getElementById("myRange1");
+            var output1 = document.getElementById("demo1");
+            output1.innerHTML = slider1.value;
+
+            slider1.oninput = function () {
+                output1.innerHTML = this.value;
+            }
+    </script>
+
+
+    <!-- html for 5th sem results -->
+
+    <p class="y" for="5th sem" name="5th sem"> 5th semester</p>
+    <input type="range" min="1" max="100" value="50" class="slider2" id="myRange2" name="fifth_results">
+    <p class="z">Value: <span id="demo2"></span></p><br>
+    <input type="file" class="attach_files"><br>
+
+
+
+    <!-- script for 5th sem results -->
+
+    <script>
+        var slider2 = document.getElementById("myRange2");
+        var output2 = document.getElementById("demo2");
+        output2.innerHTML = slider2.value;
+
+        slider2.oninput = function () {
+            output2.innerHTML = this.value;
+        }
+
+    </script>
+
+
+
+    <!-- html for 7th sem results -->
+
+    <p class="y" for="7th sem" name="7th sem"> 7th semester</p>
+    <input type="range" min="1" max="100" value="50" class="slider3" id="myRange3" name="seventh_results">
+    <p class="z">Value: <span id="demo3"></span></p><br>
+    <input type="file" class="attach_files"><br>
+
+
+    <!-- script for 7th sem results -->
+
+    <script>
+        var slider3 = document.getElementById("myRange3");
+        var output3 = document.getElementById("demo3");
+        output3.innerHTML = slider3.value;
+
+        slider3.oninput = function () {
+            output3.innerHTML = this.value;
+        }
+
+    </script>
+
+
+<!-- html for students intake-->
+
+<label for="students intake" name="students intake">STUDENTS INTAKE</label>
+<br>
+<p class="y"> 3rd semester</p><br>
+<input type="number" name="third_intake"><br>
+<input type="file" class="attach_files"><br>
+<p class="y"> 5th semester</p><br>
+<input type="number" name="fifth_intake"><br>
+<input type="file" class="attach_files"><br>
+<p class="y"> 7th semester</p><br>
+<input type="number" name="seventh_intake"><br>
+<input type="file" class="attach_files"><br>
+
+
+<!-- html MOU's-->
+
+<label>MOU's</label><br>
+<p class="y">Number of MOU's</p><br>
+<input type="number" name="nMOU"><br>
+<textarea name="MOU"></textarea><br>
+<input type="file" class="attach_files"><br>
+
+
+<!-- html sports-->
+
+<label>	Sports and Extra Curricular /Curricular activity</label><br>
+<h> PARTICIPATION</h><br>
+<p class="y" for="no of participation" >Number of Participation</p><br>
+<input type="number" name= "nparticipation"><br>
+<textarea rows="5" column="50" name="participation"></textarea><br>
+<input type="file" class="attach_files"><br>
+
+<h> RECOGNITION</h><br>
+<p class="y" for="no of recognition" >Number of Recognition</p><br>
+<input type="number" name= "nrecognition"><br>
+<textarea rows="5" column="50" name="recognition"></textarea><br>
+<input type="file" class="attach_files"><br>
+
+
+<!--ÖÖÖÖÖÖÖÖÖÖÖÖÖ..html code for number of phd'sÖÖÖÖÖÖÖÖÖÖÖÖ-->
+<label for="Faculty Progression">FACULTY PROGRESSION</label>
+<p class="y"> Total number of PHDs:</p><br>
+<input type="number" name="total_phd"><br>
+<input type="file" class="attach_files"><br>
+<p class="y"> Registered:</p><br>
+<input type="number" name="registered"><br> 
+<input type="file" class="attach_files"><br>
+<p class="y"> Completion of VIVA:</p><br>
+<input type="number" name="completion"><br>
+<input type="file" class="attach_files">
+<p class="y"> Thesis Submission:</p><br>
+<input type="number" name="thesis"><br>
+<input type="file" class="attach_files"><br>
+<label for="FDP attended">FDPís attended</label><br> 
+<p class="y">FDP's(industry):</p><br>
+<input type="number" name="fdp_industry"><br>
+<input type="file" class="attach_files"><br>
+<p class="y">FDP's(other):</p><br>
+<input type="number" name="fdp_other"><br>
+<input type="file" class="attach_files"><br>
+
+
+
+
+
+<!--óóóóóóóóóhtml code for template number 13 ESTABLISHMENT OF CENTRE OF EXCELLENCEóóóóóóóóóó-->
+
+<label for="ESTABLISHMENT OF CENTRE OF EXCELLENCE" name="ESTABLISHMENT OF CENTRE OF EXCELLENCE">ESTABLISHMENT OF CENTRE OF EXCELLENCE</label>
+<br>
+<p class="y"> NUMBER OF CERTIFICATION PROGRAMS:</p><br>
+<input type="number" name="certification_programs"><br>
+<input type="file" class="attach_files"><br>
+<p class="y">NUMBER OF COURSES:</p><br>
+<input type="number" name="ncourses"><br>
+<input type="file" class="attach_files"><br>
+
+
+<!--óóóóóóóóóóóóóóóó-code for template 16 CONSULTANCYóóóóóóóóóóóóóóóóóóóóó-->
+<label for="CONSULTANCY" name="CONSULTANCY">CONSULTANCY</label> 
+<p class="y">Filing of Patents:</p><br>
+<input type="number" name="Patents"><br>
+<input type="file" class="attach_files"><br>
+<p class="y"> Number of consultancies:</p><br>
+<input type="number" name="nconsultancy"><br>
+<input type="file" class="attach_files"><br>
+
+
+<!--óóóóóóóóhtml code for template 17 INDUSTRIAL TRAINING/INTERNSHIPSóóóóóóóóó-->
+<label for="INDUSTRIAL TRAINING/INTERNSHIPS" name="INDUSTRIAL TRAINING/INTERNSHIPS">INDUSTRIAL TRAINING/INTERNSHIPS </label>
+<br> 
+<p class="y">Input of Students:</p><br>
+<input type="number" name="input_students"><br>
+<input type="file" class="attach_files"><br>
+<p class="y"> Details:</p><br>
+<input type="text" name="training_details"><br>
+<input type="file" class="attach_files"><br>
+
+
+<!--óóóóóóóóóhtml code for template 18 STUDENTS PARTICIPATIONóóóóóóóóóóóóóóó-->
+<label for="STUDENTS PARTICIPATION " name="STUDENTS PARTICIPATION">STUDENTS PARTICIPATION</label><br>
+<p class="y">NUMBER OF COMPETITIONS PARTICIPATED OUTSIDE THE COLLEGE:</p><br>
+<input type="number" name="competition_participated"><br>
+<input type="file" class="attach_files"><br>
+<p class="y"> NUMBER OF RECOGNITIONS:</p><br>
+<input type="number" name="competition_recognition"><br>
+<input type="file" class="attach_files"><br>
+
+
+
+<!--óóóóóóóóó html code for template 19 DEPARTMENT VISIBILITY IN SOCIETYóóóóóóóóóó-->
+
+<label for="DEPARTMENT VISIBILITY IN SOCIETY" name="DEPARTMENT VISIBILITY IN SOCIETY">DEPARTMENT VISIBILITY IN SOCIETY</label><br>
+<p class="y">Books Written:</p><br>
+<input type="number" name="books"><br>
+<input type="file" class="attach_files"><br>
+<p class="y"> Articles Written:</p><br>
+<input type="number" name="articles"><br>
+<input type="file" class="attach_files"><br>
+<p class="y">Collaborative Programs:</p><br>
+<input type="number" name="collaborative_programs"><br>
+<input type="file" class="attach_files"><br>
+<p class="y">Participation in TV Discussions:<br></p>
+<input type="number" name="tv_discussions"><br>
+<input type="file" class="attach_files"><br>
+<p class="y">Member in Academic Council:<br></p>
+<input type="number" name="academic_council"><br>
+<input type="file" class="attach_files"><br>
+<p class="y">Member in BOS/BOE:</p><br>
+<input type="text" name="member_bos"><br>
+<input type="file" class="attach_files"><br>
+<p class="y">Member of Technical Committee:</p><br>
+<input type="number" name="technical_committee"><br>
+<input type="file" class="attach_files"><br>
+<p class="y">Student Project Participation:</p><br>
+<input type="number" name="project_participation"><br>
+<input type="file" class="attach_files"><br>
+
+       
+<!-- submit button for display part -->
+
+<br>
+<input type="submit" onclick="display();">
+
+
+</form>
+</body>
+</html>
+<!--óóóóóóóóóóóóóóóóó-THE ENDóóóóóóóóóóóóóóóóóóóóóóó-->
+
+
+display page
+
+function display() {
+    var a = document.myform.professors.value;
+    var b = document.myform.assistant_professors.value;
+    var c = document.myform.associate_professors.value;
+    var d = document.myform.papers_published.value;
+    var e = document.myform.third_results.value;
+    var f = document.myform.fifth_results.value;
+    var g = document.myform.seventh_results.value;
+    var h = document.myform.third_intake.value;
+    var i = document.myform.fifth_intake.value;
+    var j = document.myform.seventh_intake.value;
+    var k = document.myform.nMOU.value;
+    var l = document.myform.MOU.value;
+    var m = document.myform.nparticipation.value;
+    var n = document.myform.participation.value;
+    var o = document.myform.nrecognition.value;
+    var p = document.myform.recognition.value;
+    var q = document.myform.total_phd.value;
+    var r = document.myform.registered.value;
+    var s = document.myform.completion.value;
+    var t = document.myform.thesis.value;
+    var u = document.myform.fdp_industry.value;
+    var v = document.myform.fdp_other.value;
+    var w = document.myform.books.value;
+    var x = document.myform.articles.value;
+    var y = document.myform.collaborative_programs.value;
+    var z = document.myform.tv_discussions.value;
+    var a1 = document.myform.academic_council.value;
+    var b1 = document.myform.member_bos.value;
+    var c1 = document.myform.technical_committee.value;
+    var d1 = document.myform.project_participation.value;
+    var e1 = document.myform.certification_programs.value;
+    var f1 = document.myform.ncourses.value;
+    var g1 = document.myform.Patents.value;
+    var h1 = document.myform.nconsultancy.value;
+    var i1 = document.myform.input_students.value;
+    var j1 = document.myform.training_details.value;
+    var k1 = document.myform.competition_participated.value;
+    var l1 = document.myform.competition_recognition.value;
+
+
+
+
+
+    document.write("<h1>DAYANANDASAGAR COLLEGE OF ENGINEERING</h1>");
+
+    document.write("<table><tr><td>Faculty strength in Department</td><td>Professors: " + a + "</td><td>Associate professors: " + b +"</td></tr></table>");
+    document.write("Professors: "+a+"<br>");
+    document.write("Associate professors: "+b + "<br>");
+    document.write("Assistant professors: "+c + "<br>");
+    document.write("value: "+d + "%" +"<br>");
+    document.write("value: "+e +"%"+ "<br>");
+    document.write("value: "+f + "%" +"<br>");
+    document.write("value: "+g + "%" +"<br>");
+    document.write("3rd semester "+h + "<br>");
+    document.write("5th semester "+i + "<br>");
+    document.write("7th semester "+j + "<br>");
+    document.write("Number of MOU's "+k + "<br>");
+    document.write(l + "<br>");
+    document.write("Number of Participation "+m + "<br>");
+    document.write(n + "<br>");
+    document.write("Number of Recognition "+o + "<br>");
+    document.write(p + "<br>");
+    document.write("Total number of PHDs: "+q + "<br>");
+    document.write("Registered: "+r + "<br>");
+    document.write("Completion of VIVA: "+s + "<br>");
+    document.write("Thesis Submission: "+t + "<br>");
+    document.write("FDP's(industry): "+u + "<br>");
+    document.write("FDP's(other): "+v + "<br>");
+    document.write(w + "<br>");
+    document.write(x + "<br>");
+    document.write(y + "<br>");
+    document.write(z + "<br>");
+    document.write(a1 + "<br>");
+    document.write(b1 + "<br>");
+    document.write(c1 + "<br>");
+    document.write(d1 + "<br>");
+    document.write(e1 + "<br>");
+    document.write(f1 + "<br>");
+    document.write(g1 + "<br>");
+    document.write(h1 + "<br>");
+    document.write(i1 + "<br>");
+    document.write(j1 + "<br>");
+    document.write(k1 + "<br>");
+    document.write(l1 + "<br>");
+  
+}
